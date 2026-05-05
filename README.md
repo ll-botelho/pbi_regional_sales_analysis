@@ -1,6 +1,6 @@
 # Regional Sales Analysis Dashboard
 
-![Executive Summary](images/0.png)
+![Executive Summary](images/0_cover.png)
 
 ## Business Problem
 Sales performance varies across geographic regions and commercial structures, making it difficult to identify where performance gaps occur and where to act.
@@ -14,8 +14,8 @@ This dashboard provides a structured view of sales performance across geographic
 
 Provides a high-level diagnostic view of business performance, highlighting key risks and opportunities.
 
-![Executive Summary](images/p1_v2.png)
-![Executive Summary](images/p2_v2.png)
+![Executive Summary](images/1_ES1.png)
+![Executive Summary](images/2_ES2.png)
 
 
 **Key insights:**
@@ -30,8 +30,8 @@ Provides a high-level diagnostic view of business performance, highlighting key 
 Highlights performance differences across regions and identifies where growth gaps are concentrated.
 
 
-![Regional Overview](images/4.png)
-![Regional Overview](images/7_Regions.png)
+![Regional Overview](images/3_RV1.png)
+![Regional Overview](images/4_RV2.png)
 
 **Key insights:**
 - BU_3 shows strong and consistent growth across most months
@@ -44,8 +44,8 @@ Highlights performance differences across regions and identifies where growth ga
 
 Enables deeper analysis at city and account level, supporting targeted actions.
 
-![Geographic Breakdown](images/8_cities_1.png)
-![Geographic Breakdown](images/9_cities_2.png)
+![Geographic Breakdown](images/5_GB1.png)
+![Geographic Breakdown](images/6_GB2.png)
 
 **Key insights:**
 - Following BU 3 on Central-West region, 4 out of the 5 most important cities are underperforming  
@@ -58,7 +58,7 @@ Enables deeper analysis at city and account level, supporting targeted actions.
 
 Focuses on the most relevant cities in terms of sales contribution and performance.
 
-![Top Cities](images/9_r20.png)
+![Top Cities](images/7_R20.png)
 
 **Key insights:**
 - Sales are highly concentrated geographically: the top 20 cities account for ~60% of total sales, despite Brazil having over 5,000 cities
