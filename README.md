@@ -1,58 +1,77 @@
-Regional Sales Analysis Dashboard
-Business Problem
+# Regional Sales Analysis Dashboard
 
+![Executive Summary](images/0.png)
+
+## Business Problem
 Sales performance varies across geographic regions and commercial structures, making it difficult to identify where performance gaps occur and where to act.
 
-Solution
-
+## Solution
 This dashboard provides a structured view of sales performance across geographic levels (country, region, state, city) and commercial hierarchy, enabling fast identification of growth opportunities and underperforming areas.
 
-![Cover](images/0.png)
+---
 
-1. Executive Summary:
+## Executive Summary
 
-This page was meant to offer 'diagnostic' vision to quickly reveal key patterns in our Business.
-For example: In a quick glance, we can see that our major Business Unit is having a decrease in results on MAT analysis, and also that our 2nd most profitable brand (which represents 37% of our sales) is underperforming against last MAT. Another interesting quick insight is regarding our customer base: when we look to our sales for medical specialty, we can see that 70% of our sales com from top 3 specialties, indicating potential exposure if performance drops in these segments. 
+Provides a high-level diagnostic view of business performance, highlighting key risks and opportunities.
 
-![Cover](images/p1_v2.png)
-![Cover](images/p2_v2.png)
-
-
-2. Regional Overview
-
-Provides geographic breakdown starting with region
-
-Key insights:
-* Results from BU_3 shows a great performance with strong growth in every month (except September) against previous years.
-* While sales performance is outstanding in 3 major regions, there's a significant gap to be identified in Central-West Region.
-* Turns out that 3 of 4 Central-West states are underpefroming against last MAT, but lets go even further on next page.
+![Executive Summary](images/p1_v2.png)
+![Executive Summary](images/p2_v2.png)
 
 
-![Cover](images/7_Regions.png)
+**Key insights:**
+- The main Business Unit shows declining performance in MAT analysis
+- The second most profitable brand (37% of total sales) is underperforming vs previous MAT
+- Sales are highly concentrated: 75% of total revenue comes from just two products, indicating portfolio concentration risk
+
+---
+
+## Regional Overview
+
+Highlights performance differences across regions and identifies where growth gaps are concentrated.
 
 
-3. Geographic Breakdown
+![Regional Overview](images/4.png)
+![Regional Overview](images/7_Regions.png)
 
-Goes further in the geographical analysis, now showing performance through cities and the possibility to filter states or regions directly in the country map.
+**Key insights:**
+- BU_3 shows strong and consistent growth across most months
+- Despite strong performance in major regions, Central-West shows a significant performance gap  
+- 3 out of 4 states in Central-West are underperforming, indicating a regional structural issue  
 
-Key Insights
-* Following regional analysis, here we see that the team is underperforming in 4 out of 5 most important cities in the region. Helping us to clearly know where to adress to improve this team performance.
-* Using the "+" button, we can see exactly which accounts are losing performance for those cities.
+---
 
-![Cover](images/8_cities_1.png)
-![Cover](images/9_cities_2.png)
+## Geographic Breakdown
 
+Enables deeper analysis at city and account level, supporting targeted actions.
 
-![Cover](images/9_r20.png)
+![Geographic Breakdown](images/8_cities_1.png)
+![Geographic Breakdown](images/9_cities_2.png)
 
-4. Rank 20 - Major cities
+**Key insights:**
+- 4 out of the 5 most important cities in the region are underperforming  
+- Performance issues are concentrated in key accounts within these cities  
+- Drill-down capability ("+" button) allows precise identification of where to act  
 
-Here we can see our top 20 cities in sales, and also locate them quickly by relevance in the country map
+---
 
-Key insights
-* As we've seen before, Product_2 is strongly relevant and here we can clearly how it is performing in our major 20 cities across the country.
-* The 1st and 2nd most important cities are underpeforming, which suggest a need for immediate action.
-* While there's more cities that require attention for lack of performance, there's impressive growth in "Goiania" and "Uberlandia", that could be looked into with more detail to understand if there's actions that can be replicated to other cities.
-  
+## Top 20 Cities Analysis
 
+Focuses on the most relevant cities in terms of sales contribution and performance.
 
+![Top Cities](images/9_r20.png)
+
+**Key insights:**
+- Sales are highly concentrated geographically: the top 20 cities account for ~60% of total sales, despite Brazil having over 5,000 cities
+- Product_2 plays a key role in top-performing cities  
+- The two most important cities are underperforming, indicating a critical priority area  
+- Some cities (e.g., Goiania and Uberlandia) show strong growth, suggesting replicable success patterns  
+
+---
+
+## Tools
+- Power BI  
+- DAX  
+- Data Modeling  
+
+## Data Disclaimer
+Data has been anonymized and modified to preserve confidentiality.
