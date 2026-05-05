@@ -48,7 +48,7 @@ Enables deeper analysis at city and account level, supporting targeted actions.
 ![Geographic Breakdown](images/9_cities_2.png)
 
 **Key insights:**
-- 4 out of the 5 most important cities in the region are underperforming  
+- Following BU 3 on Central-West region, 4 out of the 5 most important cities are underperforming  
 - Performance issues are concentrated in key accounts within these cities  
 - Drill-down capability ("+" button) allows precise identification of where to act  
 
